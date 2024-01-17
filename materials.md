@@ -1,43 +1,49 @@
 ---
 layout: page
 title: Course Materials
-permalink: /materials/
+permalink: /course-materials/
 ---
 
 <!--{% include image.html url="/_images/cover2.jpg" width=175 align="right" %}-->
 
-# Syllabus for CMSC423: Bioinformatics Algorithms, Databases, and Tools
+# Syllabus for CMSC701: Computational Genomics
 
 Here you'll find an overview of the course — the material I expect we'll cover, the breakdown of course assignments and credit, and the course policies.
 
+## Assumed prerequisites
+
+The only restriction to enroll for this course is that you _"Must be a graduate student in CMSC or BISI program."  If you do not meet these requirements, then please reach out to me and let me know your interest in enrolling in this course. If you have a sufficient background in the prerequisites, I will be happy to sign the form to help you enroll.
+
+It is worth noting that this is a CMSC PhD qualifying course.  Among other things, we will be covering advanced data structures, succinct data structures, and the algorithms used along with them.  While I will attempt to cover each topic we discuss as independently as possible, I'll be assuming familiarity with:
+
+  * Basic data structures and algorithms (arrays, lists, trees, hashing, divide-and-conquer, dynamic programming, greedy algorithm design, etc.)
+  * Basic CS theory and asymptotic notation (the word-RAM model, familiarity wih Landau notation — primarily big O, little o, and Theta, and basic understanding of NP-completeness)
+  * Basic programming skills in a *non-managed* language (e.g. C, C++, Rust).  This last requirement isn't a _hard_ one, but in general, projects in the class should _at least_ be done in a compiled language (e.g. Java or Go are OK, **Python is not**).
+
+If there are aspects of these topics with which you are not comfortable, it is worthwhile to try and improve your background on these topics.  Below are listed resources for the general CS background assumed that should cover these topics at a level sufficient for what will be assumed in this course.
+
 ## Logistics
 
-* Course Website : [https://umd-cmsc423.github.io/f2023/](https://umd-cmsc423.github.io/f2023/)
+* Course Website : [https://umd-cmsc701.github.io/s2024](https://umd-cmsc701.github.io/s2024)
 * Instructor : Rob Patro
-* Instructor office hours: Thurs. 12:30 - 1:30 PM (or request appointment)
-* Class location: IRB 2207
+* Instructor office hours: by appointment
+* Class location: CSI 1121
 * Class days/time: Tuesdays/Thursdays 11:00 AM — 12:15 PM
-* TA : 
-  - Fenfei Guo (fguo1@umd.edu)
-    - Office hours: Tues. 1:30 - 2:30 PM in AVW 4140
+* TAs : 
+  - Noor Pratap Singh
+    - Office hours : TBA (e-mail Noor to set a location)
 
-* **COVID-related information** : More specific health information appears below in this syllabus.  However, the following bears repeating; please use both _common sense_ and the _precautionary principle_ in determining if you should get tested or attend a specific lecture in person. If you are feeling at all symptomatic, or if you have been in "contact" with someone who has tested positive for SARS-CoV-2 (regardless of whether or not they are symptomatic), please _do not attend_ this class or any other class until you have tested negative. 
+<!-- * **Lecture recordings** : I plan to make a best-effort attempt to record the lectures in this class. However, **watching a pre-recorded lecture is not, in general, a sufficient proxy for attending the lecture in person (there are numerous reasons for this that I'd be happy to discuss in person)**. Therefore, the policy in this class for recordings is the following: I will attempt (subject to overcoming technical difficulties) to record the lectures, but I will not, by default, post them on Panopto. If you need to miss class for a health-related reason (or any legitimate reason), just send me an e-mail and I will be happy to provide a recording of the lecture you missed. I hope this policy provides the benefits of recorded lectures while mitigating some of the detriments. -->
 
 ## Course Content
 
 **Links**: 
 
  * In general, _this website_ is the place to look for course content and course news.  Any content that is private / restricted (e.g. grades) will be made available on the ELMS page for this course.
- * Assignment announcements and deadlines will be posted on the [ELMS page for this course](https://umd.instructure.com/courses/1350043), and grading information will be made available there.
- * The course also has a Piazza page for discussions.  The Piazza page will be used actively this semester, and is the most relevant location for asking and finding answers for questions related to specific course content, including the projects and exams. Please register for this course on Piazza [here](https://piazza.com/umd/fall2023/cmsc423).
+ * Assignment announcements and deadlines will be posted on the [ELMS page for this course](https://umd.instructure.com/courses/1338959), and grading information will be made available there.
+ * The course also has a Piazza page for discussions.  Please register for this course on Piazza [here](https://piazza.com/umd/spring2024/cmsc701).
 
-**Textbook(s)**: Based on previous feedback in the course, there is no required textbook for the class. Resources, where relevant, will be provided via links on the course website accompanying the slides or lecture notes. However, this is an _upper-level_ course, and you should _absolutely_ seek out other sources explaining these topics from different angles, using different notations and examples, etc.  Of course, you should also _absolutely_ reach out to the TA and me if you are having trouble understanding a topic in the course and have been unable to become comfortable with it from the lecture slides and other sources.  Here are some (non-required) textbooks that I personally recommend as references for different topics:
-
-**Genomics algorithms, data structures, and statisitcal models**:
-
-- [Bioinformatics Algorithms: An Active Learning Approach](https://secure.mybookorders.com/Orderpage/1402)
-- [Genome Scale Algorithm Design](http://www.cs.helsinki.fi/group/gsa/book/) (Mäkinen, Belazzougui, Cunial, Tomescu 2015)
-- [Biological Sequence Analysis](http://www.amazon.com/Biological-Sequence-Analysis-Probabilistic-Proteins/dp/0521629713) (Durbin, Eddy, Krogh, Mitchinson 1998)
+**Textbook(s)**: We will be using, in part, a new textbook by Kingsford. A PDF of this text is provided behind authentication via ELMS. As this text is a (copyrighted) work in progress, and since it is kindly being provided to us free of charge for the purpose of instruction and feedback for this course, please do not distribute or share this text via any public medium. Other resources, where relevant, will be provided via links on the course website, accompanying the slides or lecture notes. However, this is a graduate-level course, and you should _absolutely_ seek out other sources explaining these topics from different angles, using different notations and examples, etc. Of course, you should reach out to me if you are having trouble understanding a topic in the course and have been unable to become comfortable with it from the lectures and other sources. Here are some (non-required) textbooks that I personally recommend as references for different topics:
 
 **Basics of algorithms and data structures**:
 
@@ -48,6 +54,12 @@ relevant concepts when we cover them.  If you need a refresher on algorithmic ba
 - [Algorithm Design](http://www.amazon.com/Algorithm-Design-Jon-Kleinberg/dp/0321295358) (Kleinberg and Tardos 2006)
 - [Introduction to Algorithms, 3rd edition](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)(Cormen, Leiserson, Rivest and Stein, 2009)
 
+**Genomics algorithms, data structures, and statisitcal models**:
+
+- [Bioinformatics Algorithms: An Active Learning Approach](https://secure.mybookorders.com/Orderpage/1402)
+- [Genome Scale Algorithm Design](http://www.cs.helsinki.fi/group/gsa/book/) (Mäkinen, Belazzougui, Cunial, Tomescu 2015)
+- [Biological Sequence Analysis](http://www.amazon.com/Biological-Sequence-Analysis-Probabilistic-Proteins/dp/0521629713) (Durbin, Eddy, Krogh, Mitchinson 1998)
+
 **Molecular biology**:
 
 We will cover the basic required molecular Biology in the course. However if you're not familiar with basic molecular Biology, there are some useful resources worth reading:
@@ -56,101 +68,112 @@ We will cover the basic required molecular Biology in the course. However if you
 - [Molecular Biology: Principles of Genome Function 2nd Edition](https://www.amazon.com/Molecular-Biology-Principles-Genome-Function/dp/0198705972/) (Craig,  Green, Greider, Storz, Wolberger, Cohen-Fix, 2014)
 - [Molecular Biology](http://www.amazon.com/Molecular-Biology-Second-Edition-David/dp/0123785944) (Clark and Pazdernik 2012)
 
-**Software development and the command line**
-
-While you should have had, in the prerequisites for this course, exposure to the relevant tools (e.g. how to properly create a tarball, how to invoke the compiler from the command line / a script), I realize it may have been a while since you have used these skills. If you feel you need a refresher on these topics, I would strongly suggest checking out ["The missing semester"](https://missing.csail.mit.edu/) (an MIT course dedicated to these various miscellaneous topics).
-
-**Expectations**: Since this is a computational biology course, you will be expected to become familiar with the relevant biology — it is an important and inextricable part of the material, and the underlying biology provides motivation for the computational problems we will tackle.  However, as an upper-level computer science course, **our focus will be on the computational aspects of bioinformatics and genomics**.  It is expected that you enter the class with a strong understanding of algorithms and basic data structures, and that you leave the class with a knowledge of how algorithm and data structure design can be fruitfully applied to biological data. Additionally, this course makes use of programming assignments to help reinforce material we cover during lectures and to help you understand certain concepts in even more depth (by _implementing_ them).  As such, **programming is an important part of this course**, and dynamic languages (e.g. Python) are ill-suited for many of the problems we will tackle.  We attempt to provide maximal freedom in the languages you can use for the assignemnts in the class, but we will require the assignments to be completed in a _compiled_ language. The submission server supports, Java, C, C++, Rust, and Go — we will consider reasonable requests for other compiled languages as well.
+**Expectations**: Since this is a computational biology course, you will be expected to become familiar with the relevant biology — it is an important and inextricable part of the material, and the underlying biology provides motivation for the computational problems we will tackle. However, as a graduate-level computer science course, our focus will be on the computational aspects of bioinformatics and genomics.  It is expected that you enter the class with a strong understanding of algorithms and basic data structures, and that you leave the class with a knowledge of how algorithm and data structure design can be fruitfully applied to biological data. 
 
 ## Course Objectives
 
-The main objective of this course will be to provide an understanding of some of the algorithms, data structures, and methods that underlie _modern_ computational genomics. This course is intended as a broad introduction to bioinformatics and computational biology.  However, this is a huge field, so we will not cover everything, and what we do cover will not all be at the same depth (e.g. we will spend more time discussing indexing than clustering).   Our perspective will be a computational and algorithmic one, though we will take the time to understand the necessary biology and motivation for the problems we discuss. At the end of this course, you should have a good understanding of how new challenges in genomics drive algorithmic innovations and how algorithmic innovations enable new and improved biological analyses.
-
-## Course Resources
-
-The course website is [https://umd-cmsc423.github.io/f2023](https://umd-cmsc423.github.io/f2023), which is probably where you are reading this right now.
-
-The course has a Piazza page, and you can enroll [here](http:///www.piazza.com/umd/fall2023/cmsc423).  I encourage you to interact with each other, raise questions, and discuss course topics using Piazza.  This is also the best place to raise general questions about material we cover in the course (as opposed to e.g. an e-mail), since other students can see the response and ask follow-up questions.  This helps to reduce redundancy in the answering of questions.
-
-Programming assignments will be assigned and collected [via Gradescope](https://www.gradescope.com/courses/590981)
+The main objective of this course will be to provide an understanding of some of the algorithms, data structures, and methods that underlie _modern_ computational genomics. This course is intended as a broad introduction to some problems in genomics, as well as a deep dive to the research edge of some (very narrow) aspects of the field.  However, this is a huge field, so we will not cover everything, and what we do cover will not all be at the same depth. Our perspective will be a computational and algorithmic one, though we will take the time to understand the necessary biology and motivation for the problems we discuss. At the end of this course, you should have a good understanding of how new challenges in genomics drive algorithmic innovations and how algorithmic innovations enable new and improved biological analyses.
 
 ## Course  Schedule
 
-The following is a planned schedule of the material we will cover in the course, as well as when we will cover it.  The mapping between content and dates below _is subject to change_ depending on how quickly we move.  The current schedule is  optimistic, and I would like to cover all of this material.  However, it's much more important that the class understand the material we cover than that we get to all of the topics I'd like to discuss.  Thus, the time we spend on certain topics and the precise list of topics we cover is subject to change throughout the semester depending on our pace. 
+The following is a planned schedule of the material we will cover in the course, as well as when we will cover it. The mapping between content and dates below _is subject to change_ depending on how quickly we move, and even some of the topics themselves are subject to change if we get deep into a topic and the class expresses interest in going further. The current schedule is likely optimistic, and I would like to cover all of this material. However, it's much more important that the class understand the material we cover than that we get to all of the topics I'd like to discuss. Thus, the time we spend on certain topics and the precise list of topics we cover is subject to change throughout the semester depending on our pace.
 
-- Week of Aug 28.
+### Tentative coverage of topics
+
+- Week of Jan 23.
   - Course introduction, logistics & goals
-  - Overview of bioinformatics, basic biology & biotechnology
+  - Basic biology fundamentals, genomics concepts and motivating problems
 
-- Week of Sept 4.
-  - **Note**: No class Sept 3. (Rob attending [WABI2023](https://acm-bcb.org/WABI/2023/))
-  - Exact string matching
-  - KMP & Z algorithms
- 
-- Week of Sept 11.
-  - Exact string matching continued (semi-numeric matching)
-  - Text indexing for rapid search (overview & Suffix Trie)
-  - **Note**: September 11 : Last day to drop without a `W`
+- Week of Jan 30.
+  - Fundamental challenges in genomics : Indexing and Search
+  - Read mapping and sequence homology search as motivating examples
+  - "Classic" indexing structures : suffix array
 
-- Week of Sept 18. 
-  - Suffix Arrays
+- Week of Feb 6.
+  - More full-text indexing 
+  - Advanced suffix array concepts
   - BWT and FM-index
-  
-- Week of Sept 25.
-  - more BWT and FM-index
-  - Midterm 1 (in class)
-  
-- Week of Oct 2.
-  - Varaints of FM-index / advanced full-text indexing
-  - Sequence alignment & dynamic programming
 
-- Week of Oct 9.
-  - Sequence alignment continued (local and semi-local variants)
-  - Sequence alignment continued, linear space & bounded edit distance
-  
-- Week of Oct 16.
-  - Seeding / chaining and read alignment
-  
-- Week of Oct 23.
-  - Spliced alignment & RNA sequencing
-  - Estimating transcript expression
+- Week of Feb 13. 
+  - Read mapping (seeding, chaining, filtering)
+  - Contiguous vs. spliced read mapping
 
-- Week of Oct 30.
-  - More estimation of transcript expression
-  
-- Week of Nov 6.
-  - Midterm 2 (in class)
- 
-- Week of Nov 13.
-  - Genome sequencing and assembly
+- Week of Feb 20.
+  - Sequence alignment, edit distance
+  - Optimized alignment variants, banded and blocked alignment 
+  - Project list out (tentative)
+
+- Week of Feb 28.
+  - Rank, select, and basic succinct data structures
+  - Minimal perfect hashing (BBhash data structure; maybe PTHash)
+  - Project selection & groups due
+
+- Week of March 6.
+  - "Signature" schemes : minimizers, syncmers, strobemers, k min-mers
   - The de Bruijn graph and compacted de Bruijn graph
+
+- Week of March 13.
+  - Constructing the compacted (colored) de Bruijn graph efficiently 
   
-- Week of Nov 20.
-  - Other uses of the de Bruijn graph
-  - Thurs. Nov 24 : No class (Thanksgiving)
+- Week of March 19.
+  - **No class: Spring Break**
 
-- Week of Nov 27.
-  - Phylogenomics parsimony / maximum likelihood
+- Week of March 27.
+  - More on constructed the compacted (colored) de Bruijn graph efficiently
+  - Reference indexing using the compacted de Bruijn graph 
+
+- Week of April 3.
+  - Unitigs, simplitigs and spectrum preserving string sets
+  - Large-scale sequence search; Sequence Bloom Tree and variants
+  - Final project progress report due
+
+- Week of April 10.
+  - Large-scale sequence search (continued)
+  - Mantis, color set compression and the counting dBG
   
-- Dec 4.
-  - Current problems & research topics in computational biology
+- Week of April 17.
+  - Single-cell transcriptome profiling, barcoding, UMI-resolution
 
-- Dec 11.
-  - Wrap-up/review
+- Week of April 24.
+  - Downstream (computational) challenges in single-cell analysis
+  - Representation, visualization, feature selection, sketching, clustering, integration
+  
+- Week of May 1.
+  - Final project presentations
 
-- Dec 13 : Final Exam (8:00-10:00am) **Note: University assigned time different than class time**
+- Week of May 8.
+  - Course wrapup
+  - May 11th is last day of class
 
+- Sat May 13.
+  - Final exam available
+
+- Mon May 15.
+  - Final exam due by 11:59PM
+
+- Tues May 16.
+  - Final project reports due by 11:59PM
+
+## Course Resources
+
+The course website is [https://rob-p.github.io/CMSC701_S23/](https://rob-p.github.io/CMSC701_S23/), which is probably where you are reading this right now.
+
+The course has a Piazza page, and you can enroll [here](http:///www.piazza.com/umd/spring2023/cmsc701).  I encourage you to interact with each other, raise questions, and discuss course topics using Piazza.  This is also the best place to raise general questions about material we cover in the course (as opposed to e.g. an e-mail), since other students can see the response and ask follow-up questions.  This helps to reduce redundancy in the answering of questions.
 
 ## Course Policies
 
-**Coursework and grading**: The coursework will consist of a number of different programming projects, a midterm exam and a final exam. The breakdown of weights for these different assignments will be as follows:
+**Coursework and grading**: The coursework will consist of 2-3 homework projects, a final project, and a final exam. Students will have an opportunity to select their final project in late Feb.; there will be a few projects to choose from, and students will also be allowed to propose their own projects. The projects are to be done, ideally, in teams of 3 (I will allow the project to be done solo with approval, an _may_ approve a team of 4 if there is a compelling reason). Further, the grade for the final project will be broken down into components for the interim report, a final project presentation, and the final project delivery itself. For the final project, the final deliverables will consist of runnable code (including a link to a version-controlled repository containing the source), and a short (4-5 page) research-style paper describing the work you’ve done. The breakdown of weights for these different assignments will be as follows:
 
-- Programming assignments - 50%
-- Midterm 1 - 12%
-- Midterm 2 - 13%
+- Homeworks - 25%
+- Final Project - 50%
+  - Interim report 10%
+  - Final presentation 10%
+  - Final report 30%
 - Final Exam — 25%
 
-**Late policy**: Assignments that are turned in late will be docked 1% for each hour they are late up to the first 48 hours.  The policy for "rounding" hours is in the student's favor (i.e., the penalty will be truncated to the nearest complete hour). **After 48 hours, late assignments will not be accepted**.  Each student is allowed *one* free late assignment turnin (you can turn the assignment in up to 48 hours late with no penalty).  However, you must let us know (e-mail the TA) that you are using your free late assignment _when you turn in your assignment_.  The decision to use the free late pass is non-revocable (e.g. if you decide to use the free late assignment for assignment 3, you can't later request to take the late penalty for 3 and use the late assignment for assignment 4).
+**Programming languages for homeworks**: As we will see throughout the course, modern computational genomics places a great emphasis on efficiency.  A very large part of this, of course, is algorithms and data structures, but another important part is the details of how these are implemented and the efficiency of the underlying implementation.  As a result, it's a requirement that the programming assignments (but not necessarily the final project) be completed in a _compiled_ (and ideally native) programming language.  Examples of languages that meet this requirement include Rust, Go, Nim, C, C++, Java, Kotlin and Scala. There are, of course, many others, and if you have a desire to use a specific language outside of this list, please just check with me first. However, languages like Python and R are not appropriate for the programming assignments we will be doing in the course and shouldn't be used.
+
+**Late policy**: Assignments that are turned in late will be docked 1% for each hour they are late up to the first 48 hours.  After 48 hours, late assignments will not be accepted.  Each student is allowed *one* free late assignment turnin (you can turn the assignment in up to 48 hours late with no penalty).  However, you must let me know that you are using your free late assignment _when you turn in your assignment_, and the decision is non-revocable (if you decide to use the free late assignment for assignment 1, you can't than request to take the late penalty for 1 and use the late assignment for assignment 2).
 
 **Regrade policy**: All requests to re-grade, re-check, or re-mark an assignment or exam question **must be made in writing**. When the assignment is re-graded, it will be re-checked in its entirety. This means that *it is possible to lose points on other problems if they were graded incorrectly or too leniently the first time*. Therefore, I urge you to thoroughly consider each regrade request you make.
 
