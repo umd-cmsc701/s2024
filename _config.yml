@@ -1,7 +1,7 @@
 # Site settings
 course_name: Computational Genomics
 course_description: "Computational Genomics"
-course_semester: "Spring 20204"
+course_semester: "Spring 2024"
 
 baseurl: "/s2024" # the subpath of your site, e.g. /blog/
 url: "http://umd-cmsc701.github.io/" # the base hostname & protocol for your site
