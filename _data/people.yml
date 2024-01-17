@@ -1,0 +1,9 @@
+instructors:
+  - name: Rob Patro
+    profile_pic: /_images/pp/rob.jpg
+    webpage: http://www.robpatro.com
+
+teaching_assistants:
+  - name: Fenfei Guo 
+    profile_pic: /_images/pp/fenfei.jpg
+    #webpage: https://en.wikipedia.org/wiki/Ron_Weasley
