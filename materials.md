@@ -27,7 +27,7 @@ If there are aspects of these topics with which you are not comfortable, it is w
 * Course Website : [https://umd-cmsc701.github.io/s2024](https://umd-cmsc701.github.io/s2024)
 * Instructor : Rob Patro
 * Instructor office hours: by appointment
-* Class location: CSI 1121
+* Class location: IRB 2107
 * Class days/time: Tuesdays/Thursdays 11:00 AM — 12:15 PM
 * TAs : 
   - Noor Pratap Singh
