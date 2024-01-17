@@ -43,12 +43,11 @@ If there are aspects of these topics with which you are not comfortable, it is w
  * Assignment announcements and deadlines will be posted on the [ELMS page for this course](https://umd.instructure.com/courses/1338959), and grading information will be made available there.
  * The course also has a Piazza page for discussions.  Please register for this course on Piazza [here](https://piazza.com/umd/spring2024/cmsc701).
 
-**Textbook(s)**: We will be using, in part, a new textbook by Kingsford. A PDF of this text is provided behind authentication via ELMS. As this text is a (copyrighted) work in progress, and since it is kindly being provided to us free of charge for the purpose of instruction and feedback for this course, please do not distribute or share this text via any public medium. Other resources, where relevant, will be provided via links on the course website, accompanying the slides or lecture notes. However, this is a graduate-level course, and you should _absolutely_ seek out other sources explaining these topics from different angles, using different notations and examples, etc. Of course, you should reach out to me if you are having trouble understanding a topic in the course and have been unable to become comfortable with it from the lectures and other sources. Here are some (non-required) textbooks that I personally recommend as references for different topics:
+**Textbook(s)**: We will be making use of, in part, a new textbook by [Carl Kingsford](https://kingsfordlab.cbd.cmu.edu/). A PDF of this text is provided behind authentication via ELMS. As this text is a (copyrighted) work in progress (near-final draft), and since it is kindly being provided to us free of charge for the purpose of instruction and feedback for this course, please do not distribute or share this text via any public medium. Other resources, where relevant, will be provided via links on the course website, accompanying the slides or lecture notes. However, this is a graduate-level course, and you should _absolutely_ seek out other sources explaining these topics from different angles, using different notations and examples, etc. Of course, you should reach out to me if you are having trouble understanding a topic in the course and have been unable to become comfortable with it from the lectures and other sources. Here are some (non-required) textbooks that I personally recommend as references for different topics:
 
 **Basics of algorithms and data structures**:
 
-This course will assume familiarity with basic algorithms and data structures, though I will attempt to refresh everyone's memory on
-relevant concepts when we cover them.  If you need a refresher on algorithmic basics, I recommend the following resources:
+This course will assume familiarity with basic algorithms and data structures, though I will attempt to refresh everyone's memory on relevant concepts when we cover them.  If you need a refresher on algorithmic basics, I recommend the following resources:
 
 - [Algorithms](http://algorithmics.lsi.upc.edu/docs/Dasgupta-Papadimitriou-Vazirani.pdf) (Dasgupta, Papadimitriou, and Vazirani 2006)
 - [Algorithm Design](http://www.amazon.com/Algorithm-Design-Jon-Kleinberg/dp/0321295358) (Kleinberg and Tardos 2006)
@@ -80,89 +79,90 @@ The following is a planned schedule of the material we will cover in the course,
 
 ### Tentative coverage of topics
 
-- Week of Jan 23.
+- Week of Jan 22.
   - Course introduction, logistics & goals
   - Basic biology fundamentals, genomics concepts and motivating problems
 
-- Week of Jan 30.
+- Week of Jan 29.
   - Fundamental challenges in genomics : Indexing and Search
   - Read mapping and sequence homology search as motivating examples
   - "Classic" indexing structures : suffix array
 
-- Week of Feb 6.
+- Week of Feb 5.
   - More full-text indexing 
   - Advanced suffix array concepts
   - BWT and FM-index
 
-- Week of Feb 13. 
+- Week of Feb 12. 
   - Read mapping (seeding, chaining, filtering)
   - Contiguous vs. spliced read mapping
 
-- Week of Feb 20.
+- Week of Feb 19.
   - Sequence alignment, edit distance
   - Optimized alignment variants, banded and blocked alignment 
   - Project list out (tentative)
 
-- Week of Feb 28.
+- Week of Feb 27.
   - Rank, select, and basic succinct data structures
   - Minimal perfect hashing (BBhash data structure; maybe PTHash)
   - Project selection & groups due
 
-- Week of March 6.
+- Week of March 5.
   - "Signature" schemes : minimizers, syncmers, strobemers, k min-mers
   - The de Bruijn graph and compacted de Bruijn graph
 
-- Week of March 13.
+- Week of March 12.
   - Constructing the compacted (colored) de Bruijn graph efficiently 
   
-- Week of March 19.
+- Week of March 17.
   - **No class: Spring Break**
 
-- Week of March 27.
+- Week of March 25.
   - More on constructed the compacted (colored) de Bruijn graph efficiently
   - Reference indexing using the compacted de Bruijn graph 
 
-- Week of April 3.
+- Week of April 1.
   - Unitigs, simplitigs and spectrum preserving string sets
   - Large-scale sequence search; Sequence Bloom Tree and variants
   - Final project progress report due
 
-- Week of April 10.
+- Week of April 8.
   - Large-scale sequence search (continued)
   - Mantis, color set compression and the counting dBG
   
-- Week of April 17.
+- Week of April 15.
   - Single-cell transcriptome profiling, barcoding, UMI-resolution
+  - Rob away April 18
 
-- Week of April 24.
+- Week of April 22.
   - Downstream (computational) challenges in single-cell analysis
   - Representation, visualization, feature selection, sketching, clustering, integration
   
-- Week of May 1.
+- Week of April 29.
   - Final project presentations
 
-- Week of May 8.
+- Week of May 6.
   - Course wrapup
-  - May 11th is last day of class
+  - May 9th is last day of class
 
-- Sat May 13.
+- Fri May 10.
   - Final exam available
 
-- Mon May 15.
+- Mon May 13.
   - Final exam due by 11:59PM
 
-- Tues May 16.
+- Thurs May 16.
   - Final project reports due by 11:59PM
 
 ## Course Resources
 
-The course website is [https://rob-p.github.io/CMSC701_S23/](https://rob-p.github.io/CMSC701_S23/), which is probably where you are reading this right now.
+The course website is [https://umd-cmsc701.github.io/s2024](https://umd-cmsc701.github.io/s2024), which is probably where you are reading this right now.
 
-The course has a Piazza page, and you can enroll [here](http:///www.piazza.com/umd/spring2023/cmsc701).  I encourage you to interact with each other, raise questions, and discuss course topics using Piazza.  This is also the best place to raise general questions about material we cover in the course (as opposed to e.g. an e-mail), since other students can see the response and ask follow-up questions.  This helps to reduce redundancy in the answering of questions.
+The course has a Piazza page, and you can enroll [here](http:///www.piazza.com/umd/spring2024/cmsc701).  I encourage you to interact with each other, raise questions, and discuss course topics using Piazza.  This is also the best place to raise general questions about material we cover in the course (as opposed to e.g. an e-mail), since other students can see the response and ask follow-up questions.  This helps to reduce redundancy in the answering of questions.
 
 ## Course Policies
 
-**Coursework and grading**: The coursework will consist of 2-3 homework projects, a final project, and a final exam. Students will have an opportunity to select their final project in late Feb.; there will be a few projects to choose from, and students will also be allowed to propose their own projects. The projects are to be done, ideally, in teams of 3 (I will allow the project to be done solo with approval, an _may_ approve a team of 4 if there is a compelling reason). Further, the grade for the final project will be broken down into components for the interim report, a final project presentation, and the final project delivery itself. For the final project, the final deliverables will consist of runnable code (including a link to a version-controlled repository containing the source), and a short (4-5 page) research-style paper describing the work you’ve done. The breakdown of weights for these different assignments will be as follows:
+**Coursework and grading**: The coursework will consist of 2-3 homework projects, a final project, and a final exam. Students will have an opportunity to select their final project in Feb.; there will be a few projects to choose from, and students will also be allowed to propose their own projects. The projects are to be done, ideally, in teams of 3 (I will allow the project to be done solo with approval, an _may_ approve a team of 4 if there is a compelling reason). Further, the grade for the final project will be broken down into components for the interim report, a final project presentation, and the final project delivery itself. For the final project, the final deliverables will consist of runnable code (including a link to a version-controlled repository containing the source), and a short (4-5 page) research-style paper describing the work you’ve done. The breakdown of weights for these different assignments will be as follows:
 
 - Homeworks - 25%
 - Final Project - 50%
@@ -171,13 +171,14 @@ The course has a Piazza page, and you can enroll [here](http:///www.piazza.com/u
   - Final report 30%
 - Final Exam — 25%
 
-**Programming languages for homeworks**: As we will see throughout the course, modern computational genomics places a great emphasis on efficiency.  A very large part of this, of course, is algorithms and data structures, but another important part is the details of how these are implemented and the efficiency of the underlying implementation.  As a result, it's a requirement that the programming assignments (but not necessarily the final project) be completed in a _compiled_ (and ideally native) programming language.  Examples of languages that meet this requirement include Rust, Go, Nim, C, C++, Java, Kotlin and Scala. There are, of course, many others, and if you have a desire to use a specific language outside of this list, please just check with me first. However, languages like Python and R are not appropriate for the programming assignments we will be doing in the course and shouldn't be used.
+**Programming languages for homeworks**: As we will see throughout the course, modern computational genomics places a great emphasis on efficiency.  A very large part of this, of course, is algorithms and data structures, but another important part is the details of how these are implemented and the efficiency of the underlying implementation.  As a result, it's a requirement that the programming assignments (but not necessarily the final project) be completed in a _compiled_ (and ideally native) programming language.  Examples of languages that meet this requirement include Rust, Go, Nim, Zig, C, C++, Java, Kotlin and Scala. There are, of course, many others, and if you have a desire to use a specific language outside of this list, please just check with me first. However, languages like Python and R are not appropriate for the programming assignments we will be doing in the course and shouldn't be used.
 
 **Late policy**: Assignments that are turned in late will be docked 1% for each hour they are late up to the first 48 hours.  After 48 hours, late assignments will not be accepted.  Each student is allowed *one* free late assignment turnin (you can turn the assignment in up to 48 hours late with no penalty).  However, you must let me know that you are using your free late assignment _when you turn in your assignment_, and the decision is non-revocable (if you decide to use the free late assignment for assignment 1, you can't than request to take the late penalty for 1 and use the late assignment for assignment 2).
 
 **Regrade policy**: All requests to re-grade, re-check, or re-mark an assignment or exam question **must be made in writing**. When the assignment is re-graded, it will be re-checked in its entirety. This means that *it is possible to lose points on other problems if they were graded incorrectly or too leniently the first time*. Therefore, I urge you to thoroughly consider each regrade request you make.
 
 ### Absences / scheduling accomodations 
+
   - medical reasons: (Obviously,) If you are exhibiting any symptoms indicative of COVID-19, **please do not attend class in person**.  Instead get tested (either at the [University health center](https://uhr.umd.edu/coronavirus/return-to-campus/covid-19-testing-information/) or elsewhere).  Likewise if you believe that you may have been exposed (i.e. have been in close contact for an extended period of time with someone with a confirmed infection), please do not attend class and instead get tested. If, for a health-related or medical reason, you will miss two or more consecutive classes, or will miss class on a recurring basis, or were unable to meet a particular academic obligation of this course, I will require a written note from the Student Health Service or a healthcare provider documenting the range of dates for which you were unable to meet your academic obligations. This note need not contain any diagnostic information. 
   
   - non-medical reasons: If you will miss any classes or scheduled exams as a result of religious observances, you must submit this information to me, in writing, within the first two weeks of the semester to make necessary accommodations to complete the work that will be missed. In this course, this applies mostly to notifying me about expected absences from class.  The homeworks and projects are assigned far-enough in advance that it is not reasonable that extensions or delays be provided for religious reasons.
@@ -209,3 +210,11 @@ Academic integrity is a very serious issue. Any assignment, project or exam you 
 ### Accessibility and Disability Service, ADS
 
 Any student eligible for and requesting reasonable academic accommodations due to a disability is requested to provide, to the instructor in office hours, a letter of accommodation from the Office of Accessibility and Disability Services (ADS) within the first two weeks of the semester. If for some reason ADS accommodation is only granted to a student mid-semester, it applies to coursework from then on, not retroactively. **Please note:** Students must make accommodated testing reservations 3 business days in advance of the test date.
+
+
+### Inclement Weather Policy
+
+You can find information about the University's inclement weather and weather-related delay and closure policies [here](https://umd.edu/weather).
+
+In the event that campus is closed due to inclement weather, I will announce *as soon as possible* (but no sooner) whether our lecture is canceled, or whether it will be delivered remotely (via Zoom). In the latter case, I will make a post to Piazza with the Zoom link to be used for the lecture.
+
