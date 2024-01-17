@@ -1,10 +1,10 @@
 # Site settings
 course_name: Introduction to Bioinformatics
-course_description: "Algorithms and Data Structures for Modern Bioinformatcs"
-course_semester: "Fall 2023"
+course_description: "Computational Genomics"
+course_semester: "Spring 20204"
 
-baseurl: "/f2023" # the subpath of your site, e.g. /blog/
-url: "http://umd-cmsc423.github.io/" # the base hostname & protocol for your site
+baseurl: "/s2024" # the subpath of your site, e.g. /blog/
+url: "http://umd-cmsc701.github.io/" # the base hostname & protocol for your site
 
 schoolname: "University of Maryland"
 schoolurl: "https://umd.edu"
