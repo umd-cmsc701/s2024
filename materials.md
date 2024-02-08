@@ -31,7 +31,7 @@ If there are aspects of these topics with which you are not comfortable, it is w
 * Class days/time: Tuesdays/Thursdays 11:00 AM — 12:15 PM
 * TAs : 
   - Noor Pratap Singh
-    - Office hours : TBA (e-mail Noor to set a location)
+    - Office hours : Wed. 1-2PM (in front of IRB 1107)
 
 <!-- * **Lecture recordings** : I plan to make a best-effort attempt to record the lectures in this class. However, **watching a pre-recorded lecture is not, in general, a sufficient proxy for attending the lecture in person (there are numerous reasons for this that I'd be happy to discuss in person)**. Therefore, the policy in this class for recordings is the following: I will attempt (subject to overcoming technical difficulties) to record the lectures, but I will not, by default, post them on Panopto. If you need to miss class for a health-related reason (or any legitimate reason), just send me an e-mail and I will be happy to provide a recording of the lecture you missed. I hope this policy provides the benefits of recorded lectures while mitigating some of the detriments. -->
 
