@@ -76,7 +76,7 @@ The input consists of 3 arguments, given in this order:
 
 ### `inspectsa`: Output
 
-Your program will output a file with the name given by the `output` argument above.  The output will consist of text file with exactly 4 lines. Unlike project 1, there are no keys and values; **rather, the values must be written out in precisely the order specified here**.  The output below contains statistics about the LCP1 array, which you are not expected to compute in the `buildsa` executable, here you should just compute the values on the fly (the naive approach should be sufficiently fast) in your `inspectsa` executable.  Your program Your output should contain:
+Your program will output a file with the name given by the `output` argument above.  The output will consist of text file with exactly 4 lines. **The values must be written out in precisely the order specified here**.  The output below contains statistics about the LCP1 array, which you are not expected to compute in the `buildsa` executable, here you should just compute the values on the fly (the naive approach should be sufficiently fast) in your `inspectsa` executable.  Your program Your output should contain:
 
  * `mean LCP1 value` : This is a floating point number representing the _average_ length of the longest common prefix shared between subsequent entries of the suffix array.
 
