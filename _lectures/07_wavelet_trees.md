@@ -5,6 +5,6 @@ title: Extending rank and select to larger alphabets
 tldr: "Binary decomposition of non-binary alphabets"
 thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec_7.pdf
+    - url: /static_files/presentations/lec_6.pdf
       name: Wavelet Trees
 ---
