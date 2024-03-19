@@ -10,7 +10,7 @@ due_event:
 
 # Overview: Implementing bitvector rank and select, and applying them to a sparse array
 
-This assignment is due by **11:59PM ET on XXX**.  It consists of 2 executables, which center around bitvector rank select and access, as well as putting this data structure to use to represent a sparse array.  
+This assignment is due by **11:59PM ET on XXX**.  It consists of 4 executables, which center around bitvector rank select and access, as well as putting this data structure to use to represent a sparse array.  
 The programming tasks build upon each other, and so should be implemented **in order**. 
 
 ## Overall structure
@@ -18,7 +18,7 @@ The programming tasks build upon each other, and so should be implemented **in o
 You will submit your assignment as a tarball named `CMSC701_A1.tar.gz`.  When this tarball is expanded, it should create a
 **single** folder named `CMSC701_A1`.  This folder must be created in the directory where the decompression (i.e. `tar xzvf`) is done, and must not be nested inside any other folders. The details of how you structure your "source tree" are up to you, but the following **must** hold (to enable proper automated testing of your programs).
 
- * There should be a script at the top-level of `CMSC701_A1` called `build.sh`.  This should do whatever is necessary to create 3 executables at the top level (one called `buildsa` and one called `inspectsa` and one called `querysa`).  If you're comfortable with Makefiles, this can just call `make`, or it could simply run the commands necessary to compile your programs and copy them to the top-level directory.  You can assume this script is run in a `bash` shell.
+ * There should be a script at the top-level of `CMSC701_A1` called `build.sh`.  This should do whatever is necessary to create 4 executables at the top level (one called `rsbuild` and one called `rsquery_rank`, one called `rsquery_select`, and one called `sarray`).  If you're comfortable with Makefiles, this can just call `make`, or it could simply run the commands necessary to compile your programs and copy them to the top-level directory.  You can assume this script is run in a `bash` shell.
  
  * There should be a README.md file in the top level directory.  This README file should contain the following information.
      
@@ -71,7 +71,7 @@ That is, a `:` separated pair of integers where the first integer is the `<idx>`
 
 ## Task 2 — Answer select queries in your bitvector
 
-Given the index you built above, write a program `rsquery_select`. The `rsquery_select` program will 3 inputs on the command line. **Note**: We _do not_ expect that you will implement the `O(1)`-time select data structure to answer these select queries. Rather, you should use teh rank data structure built in the first part of this assignment (and used in the second part), along with binary search, to answer each select query in `O(N)` time (where `N` is the length of the bitvector). The input for your program is as follows:
+Given the index you built above, write a program `rsquery_select`. The `rsquery_select` program will 3 inputs on the command line. **Note**: We _do not_ expect that you will implement the `O(1)`-time select data structure to answer these select queries. Rather, you should use the rank data structure built in the first part of this assignment (and used in the second part), along with binary search, to answer each select query in `O(N)` time (where `N` is the length of the bitvector). The input for your program is as follows:
 
   * `index` : The path to the bitvector with rank index that was computed by `rsbuild` as described above
   * `query_file` : A text-format query file (structure defined below) that consists of a set of select queries
@@ -150,3 +150,6 @@ The bitvector rank and select for part 1 will each be tested on 2 different inpu
 Likewise, the sparse array program will be graded on a per-query basis, so you will gain points for correct query results even if all results are not correct. So, for example, the `query_index` and `density` commands are easy to implement even without a working rank index, and you could try to come up with valid implementations of those first.
 
 We will provide some test input and expected output against which you can check your implementation, to allow faster testing without involving gradescope.
+
+Finally, while we won't be doing a complete code review, we do plan to read and evaluate some of the code manually, to ensure that the constraints listed in the specification 
+are being met (i.e. that integers are properly bitpacked to the minimal size, etc.).
