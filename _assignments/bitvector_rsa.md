@@ -1,7 +1,7 @@
 ---
 type: assignment
 date: 2024-03-17
-title: 'Homework 2'
+title: 'Bitvector Rank and Select & Sparse Array'
 due_event: 
     type: due
     date: 2024-04-04 23:59:00
