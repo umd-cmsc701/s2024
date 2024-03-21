@@ -4,13 +4,13 @@ date: 2024-03-17
 title: 'Bitvector Rank and Select & Sparse Array'
 due_event: 
     type: due
-    date: 2024-04-04 23:59:00
+    date: 2024-04-09 23:59:00
     description: 'Assignment Due'
 ---
 
 # Overview: Implementing bitvector rank and select, and applying them to a sparse array
 
-This assignment is due by **11:59PM ET on XXX**.  It consists of 4 executables, which center around bitvector rank select and access, as well as putting this data structure to use to represent a sparse array.  
+This assignment is due by **11:59PM ET on April 9**.  It consists of 4 executables, which center around bitvector rank select and access, as well as putting this data structure to use to represent a sparse array.  
 The programming tasks build upon each other, and so should be implemented **in order**. 
 
 ## Overall structure
